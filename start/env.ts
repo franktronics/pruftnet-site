@@ -24,4 +24,12 @@ export default await Env.create(new URL('../', import.meta.url), {
   |----------------------------------------------------------
   */
   SESSION_DRIVER: Env.schema.enum(['cookie', 'memory'] as const),
+
+  /*
+  |----------------------------------------------------------
+  | Variables for Notion API
+  |----------------------------------------------------------
+  */
+  NOTION_API_KEY: Env.schema.string(),
+  NOTION_DATABASE_ID: Env.schema.string(),
 })
