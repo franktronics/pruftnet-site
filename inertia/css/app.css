@@ -145,3 +145,57 @@
 .container-main {
   @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
 }
+
+/* Vertical dashed guide lines on left side of container */
+.guides-vertical {
+  --guide-color: var(--border);
+}
+
+.guides-vertical::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background-image: linear-gradient(to bottom, var(--guide-color) 50%, transparent 50%);
+  background-size: 1px 8px;
+}
+
+/* Horizontal dashed separator between sections */
+.guides-horizontal {
+  --guide-color: var(--border);
+  position: relative;
+  height: 1px;
+  width: 100%;
+}
+
+.guides-horizontal::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, var(--guide-color) 50%, transparent 50%);
+  background-size: 8px 1px;
+}
+
+/* Horizontal dashed line that spans full width (edge to edge) */
+.guides-horizontal-full {
+  --guide-color: var(--border);
+  position: relative;
+  height: 1px;
+  width: 100%;
+}
+
+.guides-horizontal-full::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, var(--guide-color) 50%, transparent 50%);
+  background-size: 8px 1px;
+}

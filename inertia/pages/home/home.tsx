@@ -31,12 +31,21 @@ export default function Home() {
         />
       </Head>
 
-      <div className="flex min-h-screen flex-col">
-        <Navbar />
-        <main className="flex-1">
-          <Hero />
-          <Capture />
-        </main>
+      <div className="relative flex min-h-screen flex-col">
+        <div className="pointer-events-none absolute inset-0 hidden justify-center lg:flex">
+          <div className="container-main relative h-full w-full">
+            <div className="guides-vertical absolute left-0 top-0 h-full" />
+          </div>
+        </div>
+
+        <div className="relative z-1">
+          <Navbar />
+          <main className="flex-1">
+            <Hero />
+            <div className="guides-horizontal-full hidden lg:block" />
+            <Capture />
+          </main>
+        </div>
       </div>
     </>
   )
