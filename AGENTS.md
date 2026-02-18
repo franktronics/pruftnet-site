@@ -11,7 +11,7 @@ This document provides comprehensive instructions for building the Pruftnet land
 - **Framework:** AdonisJS with InertiaJS
 - **Frontend:** React (SSR with selective client-side rendering)
 - **UI Components:** Shadcn UI (orange theme)
-- **Styling:** Tailwind CSS
+- **Styling:** Tailwind CSS in the version 4 NOT 3. So classes like w-[600px] should be written as w-150
 - **Language:** English only (all content, code, comments)
 - **Responsiveness:** Fully responsive (mobile-first approach)
 

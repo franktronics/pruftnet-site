@@ -1,6 +1,7 @@
 import { Head } from '@inertiajs/react'
 import { Navbar } from '~/pages/home/components/navbar'
 import { Hero } from '~/pages/home/components/hero'
+import { Capture } from './components/capture'
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
         <Navbar />
         <main className="flex-1">
           <Hero />
+          <Capture />
         </main>
       </div>
     </>
