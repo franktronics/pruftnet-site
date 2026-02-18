@@ -2,6 +2,10 @@ import { Head } from '@inertiajs/react'
 import { Navbar } from '~/pages/home/components/navbar'
 import { Hero } from '~/pages/home/components/hero'
 import { Capture } from './components/capture'
+import { Graph } from './components/graph'
+import { Analysis } from './components/analysis'
+import { Waitlist } from './components/waitlist'
+import { Faq } from './components/faq'
 
 export default function Home() {
   return (
@@ -44,6 +48,14 @@ export default function Home() {
             <Hero />
             <div className="guides-horizontal-full hidden lg:block" />
             <Capture />
+            <div className="guides-horizontal-full hidden lg:block" />
+            <Graph />
+            <div className="guides-horizontal-full hidden lg:block" />
+            <Analysis />
+            <div className="guides-horizontal-full hidden lg:block" />
+            <Waitlist />
+            <div className="guides-horizontal-full hidden lg:block" />
+            <Faq />
           </main>
         </div>
       </div>
