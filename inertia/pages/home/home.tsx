@@ -6,6 +6,7 @@ import { Graph } from './components/graph'
 import { Analysis } from './components/analysis'
 import { Waitlist } from './components/waitlist'
 import { Faq } from './components/faq'
+import { Footer } from './components/footer'
 
 export default function Home() {
   return (
@@ -57,6 +58,7 @@ export default function Home() {
             <div className="guides-horizontal-full hidden lg:block" />
             <Faq />
           </main>
+          <Footer />
         </div>
       </div>
     </>

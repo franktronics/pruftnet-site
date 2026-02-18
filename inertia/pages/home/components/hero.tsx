@@ -30,7 +30,11 @@ export function Hero() {
                 <ArrowRight className="size-4" />
               </Button>
               <Button variant="outline" size="lg" className="gap-2 text-base" asChild>
-                <a href="https://github.com/pruftnet" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://github.com/franktronics/Prueftnet.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Github className="size-4" />
                   View on GitHub
                 </a>
