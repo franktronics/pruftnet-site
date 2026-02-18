@@ -56,14 +56,13 @@ export function Navbar() {
           <Button size="sm">Join the Waitlist</Button>
         </div>
 
-        {/* Mobile Menu */}
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
           <SheetTrigger asChild className="md:hidden">
             <Button variant="ghost" size="icon" aria-label="Open menu">
               <Menu className="size-5" />
             </Button>
           </SheetTrigger>
-          <SheetContent side="right" className="w-75 sm:w-87.5">
+          <SheetContent side="right" className="w-75 sm:w-87.5 px-2">
             <SheetHeader>
               <SheetTitle className="flex items-center gap-2">
                 <Network className="size-6 text-primary" strokeWidth={2.5} />

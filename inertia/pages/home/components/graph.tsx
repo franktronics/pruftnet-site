@@ -1,6 +1,6 @@
 export function Graph() {
   return (
-    <section className="py-20 md:py-28">
+    <section className="py-10 md:py-28">
       <div className="container-main">
         <h2 className="text-3xl font-semibold tracking-tight text-foreground sm:text-4xl md:max-w-2xl md:text-5xl">
           Visual Network Topology
@@ -22,19 +22,19 @@ export function Graph() {
 
         <ul className="mt-10 space-y-3">
           <li className="flex items-center gap-3 font-medium text-foreground">
-            <div className="size-2 rounded-full bg-primary" />
+            <div className="flex-none size-2 rounded-full bg-primary" />
             Real-time topology updates
           </li>
           <li className="flex items-center gap-3 font-medium text-foreground">
-            <div className="size-2 rounded-full bg-primary" />
+            <div className="flex-none size-2 rounded-full bg-primary" />
             Automatic device identification
           </li>
           <li className="flex items-center gap-3 font-medium text-foreground">
-            <div className="size-2 rounded-full bg-primary" />
+            <div className="flex-none size-2 rounded-full bg-primary" />
             Interactive pan, zoom, and selection
           </li>
           <li className="flex items-center gap-3 font-medium text-foreground">
-            <div className="size-2 rounded-full bg-primary" />
+            <div className="flex-none size-2 rounded-full bg-primary" />
             Traffic flow visualization
           </li>
         </ul>
@@ -42,10 +42,10 @@ export function Graph() {
 
       <div className="container-main mt-12">
         <div className="overflow-hidden rounded-xl border border-neutral-700 bg-neutral-900 shadow-xl">
-          <div className="flex h-8 items-center gap-1.5 border-b border-neutral-700 bg-neutral-800 px-4">
-            <div className="size-3 rounded-full bg-red-500/80" />
-            <div className="size-3 rounded-full bg-yellow-500/80" />
-            <div className="size-3 rounded-full bg-green-500/80" />
+          <div className="flex h-5 md:h-7 lg:h-8 items-center gap-1.5 border-b border-neutral-700 bg-neutral-800 px-4">
+            <div className="size-2 md:size-3 rounded-full bg-red-500/80" />
+            <div className="size-2 md:size-3 rounded-full bg-yellow-500/80" />
+            <div className="size-2 md:size-3 rounded-full bg-green-500/80" />
           </div>
           <img
             src="/graph.jpeg"
