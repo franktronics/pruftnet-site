@@ -7,7 +7,7 @@ export function Footer() {
         <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
           <div className="flex items-center gap-2">
             <Network className="size-6 text-primary" />
-            <span className="text-lg font-semibold text-foreground">Pruftnet</span>
+            <span className="text-lg font-semibold text-foreground">Prüftnet</span>
           </div>
 
           <nav>

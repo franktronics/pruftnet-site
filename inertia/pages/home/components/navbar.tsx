@@ -26,7 +26,7 @@ export function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 transition-opacity hover:opacity-80">
           <Network className="size-7 text-primary" strokeWidth={2.5} />
-          <span className="text-xl font-bold tracking-tight">Pruftnet</span>
+          <span className="text-xl font-bold tracking-tight">Prüftnet</span>
         </Link>
 
         {/* Desktop Navigation */}
