@@ -45,8 +45,7 @@ export default function About() {
                       Pruftnet started as an academic project at{' '}
                       <span className="font-medium text-foreground">
                         Technische Hochschule Nürnberg
-                      </span>{' '}
-                      as part of a Bachelor's degree program. What began as a classroom assignment
+                      </span>{' '}What began as a classroom assignment
                       quickly evolved into something more ambitious.
                     </p>
                     <p>
