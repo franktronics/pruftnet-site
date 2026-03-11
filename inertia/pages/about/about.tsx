@@ -68,11 +68,11 @@ export default function About() {
                       <p className="mt-1 text-sm text-primary">Creator & Lead Maintainer</p>
                       <p className="mt-4 text-muted-foreground leading-relaxed">
                         Wilson is a software developer with over 6 years of experience building
-                        applications. Currently studying at Technische Hochschule Nürnberg and
-                        working at Siemens AG for over 2 years, he combines academic knowledge with
-                        industry expertise to push Pruftnet forward. As the creator of the current
-                        version and principal maintainer, he is dedicated to making network analysis
-                        more intuitive and accessible for everyone.
+                        applications. Currently working at Siemens AG for over 2.5 years, he
+                        combines academic knowledge with industry expertise to push Pruftnet
+                        forward. As the creator of the current version and principal maintainer, he
+                        is dedicated to making network analysis more intuitive and accessible for
+                        everyone.
                       </p>
                       <div className="mt-4 flex gap-4">
                         <a

@@ -41,14 +41,14 @@ export function Graph() {
       </div>
 
       <div className="container-main mt-12">
-        <div className="overflow-hidden rounded-xl border border-neutral-700 bg-neutral-900 shadow-xl">
-          <div className="flex h-5 md:h-7 lg:h-8 items-center gap-1.5 border-b border-neutral-700 bg-neutral-800 px-4">
+        <div className="overflow-hidden rounded-xl border border-border bg-card shadow-2xl">
+          <div className="flex h-8 items-center gap-1.5 border-b border-border bg-muted/50 px-4">
             <div className="size-2 md:size-3 rounded-full bg-red-500/80" />
             <div className="size-2 md:size-3 rounded-full bg-yellow-500/80" />
             <div className="size-2 md:size-3 rounded-full bg-green-500/80" />
           </div>
           <img
-            src="/graph.jpeg"
+            src="/graph2.jpeg"
             alt="Network topology graph showing interconnected devices and traffic flows"
             className="w-full"
             loading="lazy"
