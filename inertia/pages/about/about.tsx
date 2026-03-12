@@ -45,8 +45,9 @@ export default function About() {
                       Pruftnet started as an academic project at{' '}
                       <span className="font-medium text-foreground">
                         Technische Hochschule Nürnberg
-                      </span>{' '}What began as a classroom assignment
-                      quickly evolved into something more ambitious.
+                      </span>{' '}
+                      What began as a classroom assignment quickly evolved into something more
+                      ambitious.
                     </p>
                     <p>
                       Today, Pruftnet is a fully open-source project, available to network
@@ -69,9 +70,8 @@ export default function About() {
                         Wilson is a software developer with over 6 years of experience building
                         applications. Currently working at Siemens AG for over 2.5 years, he
                         combines academic knowledge with industry expertise to push Pruftnet
-                        forward. As the creator of the current version and principal maintainer, he
-                        is dedicated to making network analysis more intuitive and accessible for
-                        everyone.
+                        forward. As the creator of the current version and principal
+                        maintainer.{' '}
                       </p>
                       <div className="mt-4 flex gap-4">
                         <a
